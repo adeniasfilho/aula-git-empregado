@@ -19,6 +19,14 @@ public class Empregado {
         }
     }
 
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
+    public int tipo() {
+        return this.tipo;
+    }
+
     public String getNome() {
         return this.nome;
     }
